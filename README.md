@@ -1,2 +1,3 @@
-# COM411
-Solent University's Software Engineering Module "COM411" lecture task work repository
+# Uni-Module-COM411
+
+Solent University's Software Engineering: Problem Solving Through Programming Module lecture task work repository
