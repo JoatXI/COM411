@@ -1,14 +1,15 @@
-from importlib.resources import path
 import os
+path = os.getcwd()
 
-def run(cwd):
+def cwd():
+    print(f"The current working directory is {path}")
+    print(f"The directory contains the following files: ")
+    for file in os.listdir(path):
+        print(file)
+
+def run():
     print("Processing...")
-
-    cwd = os.getcwd()
-    print(f"The current working directory is: {cwd}")
-
-    for file in os.listdir(cwd):
-        print(f"The directory contains the following files: {file}")
-
-run("Processing")
-
+    cwd()
+    
+if __name__ == "__main__":
+    run()
