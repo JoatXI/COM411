@@ -1,2 +1,2 @@
 # COM411
-COM411 first uni class test work
+Solent University's Software Engineering Module "COM411" lecture task work repository
